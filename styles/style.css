@@ -40,9 +40,11 @@ img {
 }
 
 .button-group>div:nth-child(1) {
-	width: 49%;
-	display: inline-block;
-	vertical-align: middle;
+	width: 44%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 7px;
+	
 }
 
 .button-group>div:nth-child(2) {
@@ -52,21 +54,37 @@ img {
 
 .list {
 	width: 91%;
-	position: relative;
-	left: 14px;
+    position: relative;
+    margin-left: 72px;
+	font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    
 }
+
+.list>li:nth-child(1){
+	text-decoration: underline;
+    font-size: 21px;
+}
+
 
 .list-item {
 	width: 19%;
-	display: inline-block;
+    display: inline-block;
+    margin-left: -7px;
+	font-size: 18px;
 }
 
 .nav-button {
 	width: 100%;
 	border-radius: 8px;
 	height: 5vh;
-	font-size: 15px;
+	font-size: 20px;
+	
 
+}
+svg {
+    height: 80%;
+    width: 21%;
 }
 
 .nav-button::after {
@@ -82,31 +100,40 @@ img {
 
 .globe {
 	position: relative;
-	bottom: 174px;
-	width: 4%;
+    bottom: 208px;
+    width: 5%;
+    margin-left: 169px;
 }
 
 .star {
 	position: relative;
-	width: 48px;
-	float: right;
-	top: 63px;
-	right: 78px;
+    width: 48px;
+    float: right;
+    top: 79px;
+    margin-right: 41px;
 }
 
 h1.hero-heading {
 	font-size: 54px;
+    margin-left: 70px;
+	font-family: 'Orbitron', sans-serif;
 }
 
 p.hero-description {
-	margin: 39px;
+	margin: 53px;
+    width: 54%;
+    margin-left: 302px;
+	color: #837d7d;
+	
 }
 
 .button-email,
 .button-join {
 	margin: 37px 3px;
-	height: 4vh;
-	border-radius: 6px;
+    height: 4vh;
+    border-radius: 11px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 19px;
 }
 
 .button-join {
@@ -115,39 +142,46 @@ p.hero-description {
 	width: 13%;
 }
 
+.icons{
+	margin-left: 52px;
+}
+
 .button-email {
 	width: 23%;
+	margin-left: 122px;
+	color: #595050;
 }
 
 .contact-heading {
-	margin: 4px;
+	margin: 19px;
+    margin-left: 73px;
+    font-size: 21px;
+    color: #6d6464;
 }
 
 span {
 	display: inline-block;
-	/* width: 49px;
-	top: 64px;
-	position: relative; */
+	
 }
 
 .square img {
-	width: 43%;
-	margin-left: 131px;
-	position: relative;
-	top: 240px;
+	width: 49%;
+    margin-left: 180px;
+    position: relative;
+    top: 325px;
 }
 
 img[alt~="person-hero-iamge"] {
 	position: absolute;
-	width: 24%;
-	height: 63%;
-	top: 142px;
+    width: 24%;
+    height: 60%;
+    top: 192px;
 }
 
 .hero-container-right {
 	text-align: center;
-	width: 60%;
-	margin-left: 422px;
-	position: relative;
-	bottom: 120px;
+    width: 78%;
+    margin-left: 422px;
+    position: relative;
+    bottom: 120px;
 }
